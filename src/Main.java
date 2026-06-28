@@ -7,11 +7,12 @@ public class Main{
 //        System.out.print("Enter your name: ");
 //        String name = scanner.nextLine();
 //        System.out.print("Hello , " + name );
-
+//        scanner.close();
+        
 //        2. IF ELSE STATEMENTS -
 //        Perform block of code if condition is true .
 
-//        3. RANDOM CLASS
+//        3. RANDOM CLASS - understand by creating a number game (1-6)
         Random rd = new Random();
         int number ;
         number = rd.nextInt(1,3);
@@ -20,6 +21,6 @@ public class Main{
 
 
 //
-        scanner.close();
+
     }
 }
